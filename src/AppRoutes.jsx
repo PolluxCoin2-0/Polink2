@@ -6,7 +6,7 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Logo />} />
-      {/* <Route path="/WalletOptionsPage" element={<WalletOptionsPage />} /> */}
+      <Route path="/WalletOptionsPage" element={<WalletOptionsPage />} />
     </Routes>
   );
 };

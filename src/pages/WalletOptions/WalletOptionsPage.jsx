@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-// import ImageSlider from "../../components/ImageSlider/ImageSlider"; 
+import ImageSlider from "../../components/ImageSlider/ImageSlider"; 
 // import ImportWallet from "./ImportWallet/Import";
 // import CreateWallet from "./CreateWallet/Create";
 
@@ -30,7 +30,7 @@ const WalletOptionsPage = () => {
 
       
        {/* Image Slider */}
-       {/* <ImageSlider /> */}
+       <ImageSlider />
 
       
   

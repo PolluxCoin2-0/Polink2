@@ -26,7 +26,7 @@ const Logo = () => {
       } else {
         clearInterval(typewriter); // Stop typing
         setTimeout(() => {
-          navigate("/wallet-options"); // Redirect after animation
+          navigate("/WalletOptionsPage"); // Redirect after animation
         }, 1000); // Delay before navigation
       }
     }, typingSpeed);
