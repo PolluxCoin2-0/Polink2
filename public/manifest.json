@@ -1,0 +1,29 @@
+{
+    "name": "Polink",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Seamlessly Empowering Mainnet Tokens with POX's Full Support.",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "logo.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+  
+    "permissions": [
+      "storage",
+      "tabs",
+      "alarms",
+      "activeTab",
+      "clipboardWrite",
+      "clipboardRead"
+    ]
+  }
+
