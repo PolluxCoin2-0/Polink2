@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -21,7 +20,7 @@ const Logo = () => {
 
     const typewriter = setInterval(() => {
       if (index < fullText.length) {
-        setText((prev) => prev + fullText[index]);
+        setText(fullText.slice(0, index + 1)); // Use slicing instead of appending
         index++;
       } else {
         clearInterval(typewriter); // Stop typing
