@@ -24,7 +24,7 @@ import { Routes, Route } from "react-router-dom";
 const WalletOptionsPage = () => {
   return (
     <div className="wallet-options-page flex flex-col items-center justify-between w-[350px] h-[600px] mx-auto py-6 px-4 bg-transparent">
-      {/* Top Logo */}FEFRFVVV
+      {/* Top Logo */}
       <div className="top-logo flex justify-center pt-6">
         <img
           src={Logoimg}          
