@@ -8,17 +8,6 @@ import Createico from "../../assets/createico.svg";
 import Importico from "../../assets/importico.svg";
 
 
-// import ImportWallet from "./ImportWallet/Import";
-// import CreateWallet from "./CreateWallet/Create";
-
-import { Routes, Route } from "react-router-dom";
-
-// {/* <Routes>
-//   {/* Other Routes */}
-//   <Route path="/importwallet" element={<ImportWallet />} />
-//   <Route path="/createwallet" element={<CreateWallet />} />
-// </Routes> */}
-
 
 
 const WalletOptionsPage = () => {
