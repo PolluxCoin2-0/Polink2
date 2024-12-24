@@ -3,6 +3,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ImageSlider from "../../components/ImageSlider/ImageSlider"; 
+import Logoimg from "../../assets/PolinkWallettext.svg";
+import Createico from "../../assets/createico.svg";
+import Importico from "../../assets/importico.svg";
+
+
 // import ImportWallet from "./ImportWallet/Import";
 // import CreateWallet from "./CreateWallet/Create";
 
@@ -22,7 +27,7 @@ const WalletOptionsPage = () => {
       {/* Top Logo */}FEFRFVVV
       <div className="top-logo flex justify-center pt-6">
         <img
-          src="/PolinkWallettext.svg"
+          src={Logoimg}          
           alt="Polink Wallet Logo"
           className="logo w-32 h-auto"
         />
@@ -56,7 +61,7 @@ const WalletOptionsPage = () => {
       boxShadow: "6px 0px 8px 0px #FFFFFF40 inset, -6px 0px 8px 0px #00000040 inset",
     }}
   >
-    <img src="/createico.svg" alt="Create Icon" className="w-5 h-5 mr-2" />
+    <img src={Createico} alt="Create Icon" className="w-5 h-5 mr-2" />
     Create Wallet
   </button>
 </Link>
@@ -67,7 +72,7 @@ const WalletOptionsPage = () => {
       boxShadow: "6px 0px 8px 0px #FFFFFF40 inset, -6px 0px 8px 0px #00000040 inset",
     }}
   >
-    <img src="/importico.svg" alt="Import Icon" className="w-5 h-5 mr-2" />
+    <img src={Importico} alt="Import Icon" className="w-5 h-5 mr-2" />
     Import Wallet
   </button>
 </Link>

@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Img1 from "../../assets/slider1.svg"
+import Img2 from "../../assets/slider2.svg"
+import Img3 from "../../assets/slider3.svg"
 
 const ImageSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active slide
@@ -36,7 +39,7 @@ const ImageSlider = () => {
         {/* Slide 1 */}
         <div className="image-wrapper flex justify-center items-center p-4 bg-transparent rounded-lg shadow-lg">
           <img
-            src="/images/slider1.svg" // Image path relative to the public folder
+            src={Img1} // Image path relative to the public folder
             alt="Slider 1"
             className="w-full h-40 object-contain rounded-lg"
           />
@@ -45,7 +48,7 @@ const ImageSlider = () => {
         {/* Slide 2 */}
         <div className="image-wrapper flex justify-center items-center p-4 bg-transparent rounded-lg shadow-lg">
           <img
-            src="/images/slider2.svg" // Image path relative to the public folder
+            src={Img2} // Image path relative to the public folder
             alt="Slider 2"
             className="w-full h-40 object-contain rounded-lg"
           />
@@ -54,7 +57,7 @@ const ImageSlider = () => {
         {/* Slide 3 */}
         <div className="image-wrapper flex justify-center items-center p-4 bg-transparent rounded-lg shadow-lg">
           <img
-            src="/images/slider3.svg" // Image path relative to the public folder
+            src={Img3} // Image path relative to the public folder
             alt="Slider 3"
             className="w-full h-40 object-contain rounded-lg"
           />
